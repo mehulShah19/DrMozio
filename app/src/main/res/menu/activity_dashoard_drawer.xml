@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/patientDiagnosis"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="@string/toddsSyndromeDiagnosis" />
+        <item
+            android:id="@+id/doctorConsultancy"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/patientsRecord" />
+    </group>
+</menu>
